@@ -1,5 +1,7 @@
 <template>
-  <div>home</div>
+  <div>
+    hello world
+  </div>
 </template>
 <script>
 export default {
@@ -8,7 +10,4 @@ export default {
 </script>
 
 <style>
-
 </style>
-
-
