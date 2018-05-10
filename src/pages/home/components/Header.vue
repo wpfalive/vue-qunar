@@ -21,11 +21,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-// @import '../../../assets/styles/variables.styl'
   // @import '~@/assets/styles/variables.styl'
-  // 给styles目录起一个别名 
+  // @import '~@/assets/styles/variables.styl'
+  // 给styles目录起一个别名
   // 修改了webpack配置需要重启服务器
-  
   @import '~styles/variables.styl'
   .header
     display: flex
