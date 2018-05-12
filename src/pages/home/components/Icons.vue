@@ -100,37 +100,39 @@ export default {
 .icons >>> .swiper-container
   height 0
   padding-bottom 50%
-.icon
-  position relative
-  overflow hidden
-  float left
-  width 25%
-  padding-bottom 25%
-  // 这里height设为0，是content内容区的高度设为0
-  // 这样以来，div.icon的高度就由padding-bottom撑开
-  // 如果不设置height为0，那么div.icon的高度为 padding-bottom + p标签高度
-  // 就会超过应有的高度
-  height 0
-  .icon-img
-    position absolute
-    top 0
-    right 0
-    bottom .44rem
-    left 0
-    box-sizing border-box
-    padding .1rem
-    .icon-img-content
-      display block
-      margin 0 auto
-      height 100%
-  .icon-desc
-    position absolute
-    left 0
-    right 0
-    bottom 0
-    line-height .44rem
-    height .44rem
-    color $darkTextColor
-    text-align center
-    ellipsis()
+.icons
+  margin-top .1rem
+  .icon
+    position relative
+    overflow hidden
+    float left
+    width 25%
+    padding-bottom 25%
+    // 这里height设为0，是content内容区的高度设为0
+    // 这样以来，div.icon的高度就由padding-bottom撑开
+    // 如果不设置height为0，那么div.icon的高度为 padding-bottom + p标签高度
+    // 就会超过应有的高度
+    height 0
+    .icon-img
+      position absolute
+      top 0
+      right 0
+      bottom .44rem
+      left 0
+      box-sizing border-box
+      padding .1rem
+      .icon-img-content
+        display block
+        margin 0 auto
+        height 100%
+    .icon-desc
+      position absolute
+      left 0
+      right 0
+      bottom 0
+      line-height .44rem
+      height .44rem
+      color $darkTextColor
+      text-align center
+      ellipsis()
 </style>
