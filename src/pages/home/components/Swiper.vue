@@ -61,7 +61,7 @@ export default {
     width 100%
     height 0
     // 不能直接在height中写26.67%，因为height相对的是父级元素的高度
-    //根据图片宽高比算出，padding相对于width总会撑开26.67%
+    // 根据图片宽高比算出，padding相对于width总会撑开26.67%
     // 这样就始终保持了26.67%的比例
     padding-bottom 26.67%
     background #eee
