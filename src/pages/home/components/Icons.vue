@@ -97,6 +97,7 @@ export default {
 @import '~styles/variables.styl'
 @import '~styles/mixins.styl'
 // 跟轮播图一样，需要一个占位，宽高比例为2：1
+// .swiper-container自带了overflow hidden这个样式
 .icons >>> .swiper-container
   height 0
   padding-bottom 50%
@@ -109,7 +110,7 @@ export default {
     width 25%
     padding-bottom 25%
     // 这里height设为0，是content内容区的高度设为0
-    // 这样以来，div.icon的高度就由padding-bottom撑开
+    // 这样一来，div.icon的高度就由padding-bottom撑开
     // 如果不设置height为0，那么div.icon的高度为 padding-bottom + p标签高度
     // 就会超过应有的高度
     height 0
