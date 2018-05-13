@@ -3,7 +3,7 @@
     <div class="title">猜你喜欢</div>
     <ul>
       <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
-        <img class="item-img" :src="item.imgUrl" alt="北京欢乐谷" />
+        <img class="item-img" :src="item.imgUrl" alt="item.title" />
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
           <p class="item-desc">{{item.desc}}</p>
@@ -39,6 +39,11 @@ export default {
         imgUrl: 'http://img1.qunarzz.com/sight/p0/1704/d6/d62a708bc69472f5a3.img.jpg_200x200_5193a3b6.jpg',
         title: '十渡聚龙湾玻璃栈道',
         desc: '梦寻生态山水，情归大美聚龙'
+      }, {
+        id: '0005',
+        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
+        title: '故宫',
+        desc: '这里特别受欢迎哟(๑‾ ꇴ ‾๑)'
       }]
     }
   }
