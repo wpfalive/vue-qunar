@@ -111,36 +111,38 @@ export default {
 //   // 导致整个.icons的高度超过预期
 //   height 0
 //   padding-bottom 50.67%
-.icon
-  position relative
-  float left
-  overflow hidden
-  width 25%
-  // 这里height设为0，是content内容区的高度设为0
-  // 这样一来，div.icon的高度就由padding-bottom撑开
-  // 如果不设置height为0，那么div.icon的高度为 padding-bottom + p标签高度
-  // 就会超过应有的高度
-  height 0
-  // 这里不设置 height 25%是因为父元素高度为0
-  padding-bottom 25%
-  .icon-img
-    position absolute
-    top 0
-    right 0
-    left 0
-    bottom .44rem
-    box-sizing border-box
-    padding .1rem
-    .icon-img-content
-      display block
-      margin 0 auto
-      height 100%
-  .icon-desc
-    position absolute
-    bottom .1rem
-    left 0
-    right 0
-    color $darkTextColor
-    text-align center
-    ellipsis()
+.icons
+  margin-top .1rem
+  .icon
+    position relative
+    float left
+    overflow hidden
+    width 25%
+    // 这里height设为0，是content内容区的高度设为0
+    // 这样一来，div.icon的高度就由padding-bottom撑开
+    // 如果不设置height为0，那么div.icon的高度为 padding-bottom + p标签高度
+    // 就会超过应有的高度
+    height 0
+    // 这里不设置 height 25%是因为父元素高度为0
+    padding-bottom 25%
+    .icon-img
+      position absolute
+      top 0
+      right 0
+      left 0
+      bottom .44rem
+      box-sizing border-box
+      padding .1rem
+      .icon-img-content
+        display block
+        margin 0 auto
+        height 100%
+    .icon-desc
+      position absolute
+      bottom .1rem
+      left 0
+      right 0
+      color $darkTextColor
+      text-align center
+      ellipsis()
 </style>
