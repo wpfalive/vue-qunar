@@ -59,7 +59,7 @@ export default {
   background #eee
   text-indent .2rem
 .item-img-wrapper
-  overflow hidden  
+  overflow hidden
   height 0
   padding-bottom 37.5%
   background pink
