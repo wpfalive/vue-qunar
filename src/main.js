@@ -19,8 +19,5 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>',
-  mounted () {
-    console.log('main.js mounted')
-  }
+  template: '<App/>'
 })

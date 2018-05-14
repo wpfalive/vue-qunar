@@ -3,7 +3,7 @@
   "city": "杭州",
   "swiperList": [{
     "id": "0001",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1804/c4/1cdd28811593b802.jpg_750x200_5fbb7c91.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/c4/1cdd28811593b802.jpg_750x200_5fbb7c91.jpg"
   }, {
     "id": "0002",
     "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/15/9250dbc86a456302.jpg_750x200_b423f532.jpg"
@@ -15,150 +15,150 @@
     "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/bd/8e4a1c3f470d3702.jpg_750x200_f1f0a8c7.jpg"
   }, {
     "id": "0005",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1801/bd/04554e7c67650302.jpg_750x200_4293d60a.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/bd/04554e7c67650302.jpg_750x200_4293d60a.jpg"
   }, {
     "id": "0006",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/5c/969bfa7af00a2702.jpg_750x200_b99b8e07.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/5c/969bfa7af00a2702.jpg_750x200_b99b8e07.jpg"
   }, {
     "id": "0007",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1805/3c/eefaaf2d84acad02.jpg_750x200_bffe03ce.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/3c/eefaaf2d84acad02.jpg_750x200_bffe03ce.jpg"
   }, {
     "id": "0008",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1804/e5/82b53c47166cfc02.jpg_750x200_0d3a0066.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/e5/82b53c47166cfc02.jpg_750x200_0d3a0066.jpg"
   }, {
     "id": "0009",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/b1/54862f4b1501e202.jpg_750x200_097bb6b3.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b1/54862f4b1501e202.jpg_750x200_097bb6b3.jpg"
   }, {
     "id": "0010",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1804/1b/6c766b79e2045102.jpg_750x200_29ad1225.jpg"
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/1b/6c766b79e2045102.jpg_750x200_29ad1225.jpg"
   }],
   "iconList": [{
     "id": "0001",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
     "desc": "景点门票"
   }, {
     "id": "0002",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
     "desc": "必游榜单"
   }, {
     "id": "0003",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
     "desc": "踏青赏花"
   },
   {
     "id": "0004",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
     "desc": "一日游"
   },
   {
     "id": "0005",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
     "desc": "动植物园"
   },
   {
     "id": "0006",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
     "desc": "故宫"
   },
   {
     "id": "0007",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
     "desc": "古北水镇"
   },
   {
     "id": "0008",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1804/ed/cf572be30fc32f02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ed/cf572be30fc32f02.png",
     "desc": "Q+精选"
   },
   {
     "id": "0009",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png",
     "desc": "演出"
   },
   {
     "id": "0010",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
     "desc": "自然风光"
   },
   {
         "id": "0011",
-        "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
         "desc": "名胜古迹"
   },
   {
     "id": "0012",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/dd/cce1231836f10a02.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/dd/cce1231836f10a02.png",
     "desc": "周边游"
   },
   {
     "id": "0013",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png",
     "desc": "城市观光"
   },
   {
     "id": "0014",
-    "imgUrl": "http: //img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
     "desc": "游乐场"
   }],
   "recommendList": [
     {
       "id": "0001",
-      "imgUrl": "http: //img1.qunarzz.com/sight/p0/1508/a5/4003f9dd7bebf61eccbf64046e26d487.water.jpg_200x200_7690e4cd.jpg",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/a5/4003f9dd7bebf61eccbf64046e26d487.water.jpg_200x200_7690e4cd.jpg",
       "title": "北京欢乐谷",
       "desc": "近期小伙伴们收藏最！多！的景点😊"
     },
     {
       "id": "0002",
-      "imgUrl": "http: //img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
       "title": "世界花卉大观园",
       "desc": "揽天下奇花异草，聚世界经典园林"
     },
     {
       "id": "0003",
-      "imgUrl": "http: //img1.qunarzz.com/sight/p0/1804/c8/c88bb5e69c9a9c5ea3.img.jpg_200x200_740720ff.jpg",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1804/c8/c88bb5e69c9a9c5ea3.img.jpg_200x200_740720ff.jpg",
       "title": "古北水镇",
       "desc": "👍小伙伴们都收藏了，去看看吧~"
     },
     {
       "id": "0004",
-      "imgUrl": "http: //img1.qunarzz.com/sight/p0/1704/d6/d62a708bc69472f5a3.img.jpg_200x200_5193a3b6.jpg",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1704/d6/d62a708bc69472f5a3.img.jpg_200x200_5193a3b6.jpg",
       "title": "十渡聚龙湾玻璃栈道",
       "desc": "梦寻生态山水，情归大美聚龙"
     },
     {
       "id": "0005",
-      "imgUrl": "http: //img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
       "title": "故宫",
       "desc": "这里特别受欢迎哟(๑‾ ꇴ ‾๑)"
     }],
     "weekendList": [
       {
         "id": "0001",
-        "imgUrl": "http: //img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
         "title": "北京欢乐谷",
         "desc": "近期小伙伴们收藏最！多！的景点😊"
       },
       {
         "id": "0002",
-        "imgUrl": "http: //img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
         "title": "世界花卉大观园",
         "desc": "揽天下奇花异草，聚世界经典园林"
       },
       {
         "id": "0003",
-        "imgUrl": "http: //img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
         "title": "古北水镇",
         "desc": "👍小伙伴们都收藏了，去看看吧~"
       },
       {
         "id": "0004",
-        "imgUrl": "http: //img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
         "title": "十渡聚龙湾玻璃栈道",
         "desc": "梦寻生态山水，情归大美聚龙"
       },
       {
         "id": "0005",
-        "imgUrl": "http: //img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1603/6d/2f67ae0659f41f.jpg_r_640x214_bf6cbd0b.jpg",
         "title": "故宫",
         "desc": "这里特别受欢迎哟(๑‾ ꇴ ‾๑)"
       }]
