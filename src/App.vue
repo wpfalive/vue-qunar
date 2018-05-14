@@ -6,10 +6,7 @@
 
 <script>
 export default {
-  name: 'App',
-  mounted () {
-    console.log('app.vue mounted')
-  }
+  name: 'App'
 }
 </script>
 
