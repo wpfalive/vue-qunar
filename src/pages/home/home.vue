@@ -39,7 +39,6 @@ export default {
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {
-      console.log(res)
       const data = res.data
       this.city = data.city
       this.swiperList = data.swiperList

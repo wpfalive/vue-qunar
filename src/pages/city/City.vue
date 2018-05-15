@@ -1,7 +1,7 @@
 <template>
   <div>
     <city-header></city-header>
-    <city-search></city-search>
+    <city-search :cities="cities"></city-search>
     <city-list
       :hot="hotCities"
       :cities="cities"
@@ -44,7 +44,6 @@ export default {
         .then(this.handleGetCityInfoSucc)
     },
     handleGetCityInfoSucc (res) {
-      console.log(res)
       res = res.data
       if (res.ret && res.data) {
         const data = res.data
@@ -53,7 +52,6 @@ export default {
       }
     },
     handleLetterChange (letter) {
-      console.log('city.vue: ', letter)
       this.letter = letter
     }
   }
