@@ -23,9 +23,16 @@
           </div>
         </div>
       </div>
-      <div class="area" v-for="(item, key) of cities" :key="key">
+      <div class="area"
+        v-for="(item, key) of cities"
+        :key="key"
+        :ref="key">
         <div class="title border-topbottom">{{key}}</div>
-        <div class="item-list" v-for="innerItem of item" :key="innerItem.id">
+        <div
+          class="item-list"
+          v-for="innerItem of item"
+          :key="innerItem.id"
+          >
           <div class="item border-bottom">{{innerItem.name}}</div>
         </div>
       </div>
@@ -39,10 +46,22 @@ export default {
   name: 'CityList',
   props: {
     hot: Array,
-    cities: Object
+    cities: Object,
+    letter: String
   },
   mounted () {
     this.scroll = new Bscroll(this.$refs.wrapper)
+  },
+  watch: {
+    letter () {
+      if (this.letter) {
+        // better-scroll api
+        // 让滚动区自动滚到某一个元素上
+        const element = this.$refs[this.letter][0]
+        this.scroll.scrollToElement(element)
+      }
+      console.log(this.letter)
+    }
   }
 }
 </script>
@@ -57,10 +76,9 @@ export default {
 // 这里在border.css定义了，border-bottom只有before, 没有定义after
 // 如果只给html加上这个类，那么会有一个默认的底部边框颜色
 .border-bottom
-  &:after
+  &:before
     border-color #ccc
 .list
-  // overflow hidden
   position absolute
   // 相对于页面绝对定位，页面高度为667px, top 79px
   // 667 - 79 = 588px
@@ -80,16 +98,16 @@ export default {
   .button-list
     overflow hidden
     padding .1rem .6rem .1rem .1rem
-  .button-wrapper
-    float left
-    width 33.33%
-    .button
-      margin .1rem
-      text-align center
-      // 我们希望边框颜色重一点，所以就不用border.css了
-      border .02rem solid #ccc
-      border-radius .06rem
-      padding .1rem 0
+    .button-wrapper
+      float left
+      width 33.33%
+      .button
+        margin .1rem
+        text-align center
+        // 我们希望边框颜色重一点，所以就不用border.css了
+        border .02rem solid #ccc
+        border-radius .06rem
+        padding .1rem 0
   .item-list
     .item
       line-height .76rem

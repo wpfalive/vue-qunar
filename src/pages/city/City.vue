@@ -2,8 +2,15 @@
   <div>
     <city-header></city-header>
     <city-search></city-search>
-    <city-list :hot="hotCities" :cities="cities"></city-list>
-    <city-alphabet :cities="cities"></city-alphabet>
+    <city-list
+      :hot="hotCities"
+      :cities="cities"
+      :letter="letter"
+    >
+    </city-list>
+    <city-alphabet
+      :cities="cities"
+      @change="handleLetterChange"></city-alphabet>
   </div>
 </template>
 
@@ -24,7 +31,8 @@ export default {
   data () {
     return {
       cities: {},
-      hotCities: []
+      hotCities: [],
+      letter: ''
     }
   },
   mounted () {
@@ -43,6 +51,10 @@ export default {
         this.cities = data.cities
         this.hotCities = data.hotCities
       }
+    },
+    handleLetterChange (letter) {
+      console.log('city.vue: ', letter)
+      this.letter = letter
     }
   }
 }
