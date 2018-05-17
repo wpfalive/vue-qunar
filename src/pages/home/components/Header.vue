@@ -12,7 +12,7 @@
         <!-- 这样写太长了，换一种写法，引入mapState -->
         <!-- {{this.$store.state.city}} -->
         <!-- {{this.city}} -->
-        {{this.doubleCity}}
+        {{this.city}}
         <span class="iconfont arrow-icon">&#xe64a;</span>
       </div>
     </router-link>
@@ -20,13 +20,13 @@
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex'
+import { mapState } from 'vuex'
 export default {
   name: 'HomeHeader',
   computed: {
     // 把city这个数据，映射到名字为city的计算属性之中
-    ...mapState(['city']),
-    ...mapGetters(['doubleCity'])
+    ...mapState(['city'])
+    // ...mapGetters(['doubleCity'])
   }
 }
 </script>
