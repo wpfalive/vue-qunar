@@ -5,7 +5,12 @@
         <div class="title border-topbottom">您的位置</div>
         <div class="button-list">
           <div class="button-wrapper">
-            <div class="button">{{this.currentCity}}</div>
+            <div
+              class="button"
+              @click="handleCityClick(currentCity)"
+            >
+              {{this.currentCity}}
+            </div>
           </div>
         </div>
       </div>
