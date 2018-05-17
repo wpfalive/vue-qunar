@@ -5,20 +5,17 @@
         <div class="title border-topbottom">您的位置</div>
         <div class="button-list">
           <div class="button-wrapper">
-            <div class="button">杭州</div>
-          </div>
-          <div class="button-wrapper">
-            <div class="button">杭州</div>
-          </div>
-          <div class="button-wrapper">
-            <div class="button">杭州</div>
+            <div class="button">{{this.currentCity}}</div>
           </div>
         </div>
       </div>
       <div class="area">
         <div class="title border-topbottom">热门城市</div>
         <div class="button-list">
-          <div class="button-wrapper" v-for="item of hot" :key="item.id">
+          <div class="button-wrapper"
+            v-for="item of hot"
+            :key="item.id"
+            @click="handleCityClick(item.name)">
             <div class="button">{{item.name}}</div>
           </div>
         </div>
@@ -32,6 +29,7 @@
           class="item-list"
           v-for="innerItem of item"
           :key="innerItem.id"
+          @click="handleCityClick(innerItem.name)"
           >
           <div class="item border-bottom">{{innerItem.name}}</div>
         </div>
@@ -42,6 +40,7 @@
 
 <script>
 import Bscroll from 'better-scroll'
+import { mapState, mapMutations } from 'vuex'
 export default {
   name: 'CityList',
   props: {
@@ -49,8 +48,24 @@ export default {
     cities: Object,
     letter: String
   },
-  mounted () {
-    this.scroll = new Bscroll(this.$refs.wrapper)
+  computed: {
+    ...mapState({
+      // 将vuex中city这个数据，映射到计算属性里
+      // 映射过来的名字叫做currentCity
+      currentCity: 'city'
+    })
+  },
+  methods: {
+    handleCityClick (city) {
+      // this.$store.dispatch('changeCity', city)
+      // this.$store.commit('changeCity', city)
+      this.changeCity(city)
+      this.$router.push('/')
+    },
+    // 将名字为changeCity的mutation映射到一个名字为changeCity的方法里
+    // 所以上面没必要写 this.$store.commit('changeCity', city) 了
+    // 直接写this.changeCity(city)
+    ...mapMutations(['changeCity'])
   },
   watch: {
     letter () {
@@ -61,6 +76,9 @@ export default {
         this.scroll.scrollToElement(element)
       }
     }
+  },
+  mounted () {
+    this.scroll = new Bscroll(this.$refs.wrapper)
   }
 }
 </script>

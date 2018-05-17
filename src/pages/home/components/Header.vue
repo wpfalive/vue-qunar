@@ -9,7 +9,10 @@
     </div>
     <router-link to="/city">
       <div class="header-right">
-        {{this.city}}
+        <!-- 这样写太长了，换一种写法，引入mapState -->
+        <!-- {{this.$store.state.city}} -->
+        <!-- {{this.city}} -->
+        {{this.doubleCity}}
         <span class="iconfont arrow-icon">&#xe64a;</span>
       </div>
     </router-link>
@@ -17,10 +20,13 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from 'vuex'
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
+  computed: {
+    // 把city这个数据，映射到名字为city的计算属性之中
+    ...mapState(['city']),
+    ...mapGetters(['doubleCity'])
   }
 }
 </script>
@@ -53,7 +59,10 @@ export default {
       color: #ccc
       padding-left: .2rem
     .header-right
-      width: 1.24rem
+      // 指定最小宽度，宽度不写死。这样当文字很长的时候，能自动撑开div的宽度
+      // 当文字很短的时候，div也能有一个最小宽度
+      min-width: 1.04rem
+      padding 0 .1rem
       float: right
       text-align: center
       color #fff
