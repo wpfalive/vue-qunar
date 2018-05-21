@@ -34,7 +34,6 @@ export default {
     handleScroll () {
       // Document.documentElement returns the Element that is the root element of the document
       // For any non-empty HTML document, document.documentElement will always be an <html> element.
-      console.log(document.documentElement.scrollTop)
       const top = document.documentElement.scrollTop
       if (top > 60) {
         let opacity = top / 140
@@ -48,6 +47,9 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
