@@ -56,6 +56,8 @@ export default {
         }
         this.timer = setTimeout(() => {
           const startY = this.startY
+          // e.touches表示有几个触摸点
+          // MouseEvent.clientY 表示事件发生时的Y坐标(不管页面有没有滚动，从客户端左上角开始算)
           const touchY = e.touches[0].clientY - 79
           const index = Math.floor((touchY - startY) / 20)
           if (index >= 0 && index < this.letters.length) {
