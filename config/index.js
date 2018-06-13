@@ -11,10 +11,16 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+      // '/api': {
+      //   target: 'http://localhost:8080',
+      //   pathRewrite: {
+      //     '^/api': '/static/mock'
+      //   }
+      // }
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'http://176.122.132.202:3000',
         pathRewrite: {
-          '^/api': '/static/mock'
+          '^/api': 'static/mock'
         }
       }
     },
